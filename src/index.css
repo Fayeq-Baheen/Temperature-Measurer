@@ -1,0 +1,60 @@
+@import "tailwindcss";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 350px;
+  padding: 30px;
+  text-align: center;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.temperature {
+  margin: 25px 0;
+}
+
+.temperature h2 {
+  font-size: 50px;
+  margin: 10px 0;
+}
+
+.temperature p {
+  font-size: 18px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.controls button {
+  width: 60px;
+  height: 45px;
+  border: none;
+  border-radius: 8px;
+  font-size: 25px;
+  cursor: pointer;
+  background: #222;
+  color: white;
+}
+
+.controls button:hover {
+  background: #444;
+}
